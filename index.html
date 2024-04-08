@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcoiris Logics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Img/lapy.jpeg" alt="Logo">
+      <div class="comp-name">
+        <h1>Arcoiris</h1>
+        <p>Logics</p> 
+      </div>
+    </div>
+    <nav>
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('about')">About</a>
+      <a onclick="showSection('services')">Services</a>
+      <a onclick="showSection('contact')">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="home" class="content">
+      <div class="home1">
+        <h2>Welcome to Arcoiris Logics</h2>
+        <p>Your trusted partner for blockchain and mobile app development solutions. We offer cutting-edge technology products that empower businesses and individuals.</p>
+        <p>Our services include blockchain development, mobile app development, smart contract development, App development, and consulting services.</p>
+      </div>
+    </section>
+
+    <section id="about" class="content">
+      <div class="about1">
+        <h2>About Us</h2>
+        <p>Arcoiris Logics is a leading provider of blockchain and mobile app development solutions. We specialize in creating cutting-edge technology products that empower businesses and individuals alike.</p>
+        <p>Founded in 2010, our company has grown from a small team of passionate developers to a reputable organization serving clients worldwide.</p>
+        <p>We are committed to delivering innovative solutions tailored to our clients' needs, with a focus on quality, integrity, and customer satisfaction.</p>
+        <p>Our team consists of experienced professionals with expertise in blockchain technology, mobile app development, and business consulting.</p>
+      </div>   
+    </section>
+
+    <section id="services" class="content">
+      <div class="services1">
+        <h2>Our Services</h2>
+        <p style="margin-top: 5px;">We offer a wide range of services including:</p>
+        <ul>
+          <li>Blockchain Development</li>
+          <li>Mobile App Development</li>
+          <li>Smart Contract Development</li>
+          <li>App Development</li>
+          <li>Consulting Services</li>
+        </ul>
+        <div class="additional-content" id="additional-content-services">
+          <p>Whether you're a startup or an established enterprise, we have the expertise to help you leverage blockchain and mobile technologies for your success.</p>
+          <p>Contact us today to discuss your project requirements and let us help you achieve your goals!</p>
+        </div>
+        <button class="learn-more-button" onclick="toggleAdditionalContent('additional-content-services')">Learn More</button>
+      </div>
+    </section>
+    <section id="contact" class="content">
+      <div class="contact1">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us to discuss your project requirements:</p>
+        <p>Email: info@arcoirislogics.com</p>
+        <p>Phone: +1234567890</p>
+        <p>LinkedIn</p>
+        <p>Twitter</p>
+        <p>Address: 123 Main Street, Delhi, India</p>
+        <div class="additional-content" id="additional-content-contact">
+          <p>Contact to our HR team</p>
+          <p>HR Abc Cde</p>
+          <p>Email:-abc@arcoirislogics.com</p>
+          <p>Additional contact information or instructions can be provided here.</p>
+        </div>
+        <button class="learn-more-button" onclick="toggleAdditionalContent('additional-content-contact')">Learn More</button> 
+      </div> 
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Arcoiris Logics. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

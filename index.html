@@ -5,83 +5,141 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arcoiris-Logics</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="logo-container">
       <img src="Img/lapy.jpeg" alt="Logo">
-      <div class="comp-name">
-        <h1>Arcoiris</h1>
-        <p>Logics</p> 
-      </div>
+      <a href="#container1" class="comp-name">
+        <h1 id="typing-text">Arcoiris</h1>
+        <p id="typing-text">Logics</p> 
+      </a>
     </div>
     <nav>
-      <a onclick="showSection('home')">Home</a>
-      <a onclick="showSection('about')">About</a>
-      <a onclick="showSection('services')">Services</a>
-      <a onclick="showSection('contact')">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
-  <div class="container">
+  <div id="container1" class="container">
+    
+    <!-- Sections -->
     <section id="home" class="content">
       <div class="home1">
-        <h2>Welcome to Arcoiris Logics</h2>
-        <p>Your trusted partner for blockchain and mobile app development solutions. We offer cutting-edge technology products that empower businesses and individuals.</p>
-        <p>Our services include blockchain development, mobile app development, smart contract development, App development, and consulting services.</p>
+        <h2 class="heading">Welcome to Arcoiris Logics</h2>
+        <p class="para">Your trusted partner for blockchain and mobile app development solutions. We offer cutting-edge technology products that empower businesses and individuals.</p>
+        <p class="para">Our services include blockchain development, mobile app development, smart contract development, App development, and consulting services.</p>
+        <div class="img1" >
+          <img class="block-img" src="Img/blockImg.jpeg" alt="block">
+          <img class="block-img" src="Img/compImg.jpeg" alt="computer">
+        </div>
       </div>
     </section>
 
     <section id="about" class="content">
       <div class="about1">
-        <h2>About Us</h2>
-        <p>Arcoiris Logics is a leading provider of blockchain and mobile app development solutions. We specialize in creating cutting-edge technology products that empower businesses and individuals alike.</p>
-        <p>Founded in 2010, our company has grown from a small team of passionate developers to a reputable organization serving clients worldwide.</p>
-        <p>We are committed to delivering innovative solutions tailored to our clients' needs, with a focus on quality, integrity, and customer satisfaction.</p>
-        <p>Our team consists of experienced professionals with expertise in blockchain technology, mobile app development, and business consulting.</p>
+        <h2 class="heading">About Us</h2>
+        <p class="para" style="margin-top: 35px ;">Arcoiris Logics is a leading provider of blockchain and mobile app development solutions. We specialize in creating cutting-edge technology products that empower businesses and individuals alike.</p>
+        <p class="para" style="margin-top: 30px ;">Founded in 2010, our company has grown from a small team of passionate developers to a reputable organization serving clients worldwide.</p>
+        <p class="para" style="margin-top: 30px ;">We are committed to delivering innovative solutions tailored to our clients' needs, with a focus on quality, integrity, and customer satisfaction.</p>
+        <p class="para" style="margin-top: 30px ; margin-bottom: 40px;">Our team consists of experienced professionals with expertise in blockchain technology, mobile app development, and business consulting.</p>
+        
       </div>   
     </section>
 
     <section id="services" class="content">
       <div class="services1">
-        <h2>Our Services</h2>
-        <p style="margin-top: 5px;">We offer a wide range of services including:</p>
+        <h2 class="heading">Our Services</h2>
+        <p style="margin-top: 8px; font-size: 18px;">We offer a wide range of services including:</p>
         <ul>
-          <li>Blockchain Development</li>
-          <li>Mobile App Development</li>
-          <li>Smart Contract Development</li>
-          <li>App Development</li>
-          <li>Consulting Services</li>
+          <li class="para" style="font-size: 20px;">Blockchain Development</li>
+          <li class="para" style="font-size: 20px;">Mobile App Development</li>
+          <li class="para" style="font-size: 20px;">Smart Contract Development</li>
+          <li class="para" style="font-size: 20px;">App Development</li>
+          <li class="para" style="font-size: 20px; margin-bottom: 15px;">Consulting Services</li>
         </ul>
         <div class="additional-content" id="additional-content-services">
-          <p>Whether you're a startup or an established enterprise, we have the expertise to help you leverage blockchain and mobile technologies for your success.</p>
-          <p>Contact us today to discuss your project requirements and let us help you achieve your goals!</p>
+          <p class="para" style="font-size: 20px;">Whether you're a startup or an established enterprise, we have the expertise to help you leverage blockchain and mobile technologies for your success.</p>
+          <p class="para" style="font-size: 20px;">Contact us today to discuss your project requirements and let us help you achieve your goals!</p>
         </div>
-        <button class="learn-more-button" onclick="toggleAdditionalContent('additional-content-services')">Learn More</button>
+        
+        <button class="learn-more-button" style="font-size: 20px; width: 190px;" onclick="toggleAdditionalContent('additional-content-services')">Learn More</button>
       </div>
     </section>
     <section id="contact" class="content">
       <div class="contact1">
-        <h2>Contact Us</h2>
-        <p>Get in touch with us to discuss your project requirements:</p>
-        <p>Email: info@arcoirislogics.com</p>
-        <p>Phone: +1234567890</p>
-        <p>LinkedIn</p>
-        <p>Twitter</p>
-        <p>Address: 123 Main Street, Delhi, India</p>
+        <h2 class="heading">Contact Us</h2>
+        <p class="para" style="font-size: 20px;">Get in touch with us to discuss your project requirements:</p>
+        <p class="para" style="font-size: 20px; ">Email: info@arcoirislogics.com</p>
+        <p class="para" style="font-size: 20px;">Phone: +1234567890</p>
+        <p class="para" style="font-size: 20px;">LinkedIn</p>
+        <p class="para" style="font-size: 20px;">Twitter</p>
+        <p class="para" style="font-size: 20px; margin-bottom: 15px;">Address: 123 Main Street, Delhi, India</p>
         <div class="additional-content" id="additional-content-contact">
-          <p>Contact to our HR team</p>
-          <p>HR Abc Cde</p>
-          <p>Email:-abc@arcoirislogics.com</p>
-          <p>Additional contact information or instructions can be provided here.</p>
+          <p class="para" style="font-size: 20px;">Contact to our HR team</p>
+          <p class="para" style="font-size: 20px; ">HR Abc Cde</p>
+          <p class="para" style="font-size: 20px;">Email:-abc@arcoirislogics.com</p>
+          <p class="para" style="font-size: 20px; margin-bottom: 15px;">Additional contact information or instructions can be provided here.</p>
         </div>
-        <button class="learn-more-button" onclick="toggleAdditionalContent('additional-content-contact')">Learn More</button> 
+        
+        <button class="learn-more-button" style="font-size: 20px; width: 190px;" onclick="toggleAdditionalContent('additional-content-contact')">Learn More</button> 
       </div> 
     </section>
+
+    <!-- Slider -->
+    <div class="clients" >
+      <h2 class="heading" style="display: flex; justify-content: center; margin-top: 20px; font-weight: bold;">Our Clients</h2>
+
+      <div class="slider" style="width: 100%; padding: 10px 0px 10px 0px; margin:80px 0px 80px 0px; border-radius: 300px;">
+        <div class="slider-container">
+          <div class="slide" style="width:100vw;">
+            <img style="height: 140px; width: 200px;" src="Img/accenture-2.svg" alt="Slide 1">
+          </div>
+          <div class="slide"  style="width:100vw;">
+            <img  style="height: 140px; width: 200px;" src="Img/philips.svg" alt="Slide 2">
+          </div>
+          <div class="slide" style="width:100vw;">
+            <img  style="height: 140px; width: 200px;" src="Img/niva_bupa.png" alt="Slide 3">
+          </div>
+
+          <div class="slide" style="width:100vw;">
+            <img  style="height: 140px; width: 200px;" src="Img/client1.svg" alt="Slide 3">
+          </div>
+  
+        </div style="padding:50px 400px 50px 400px; margin:40px 100px 40px 100px">
+        <button class="prev-btn" style="height: 35px; width:25px; ">&#10094;</button>
+        <button class="next-btn"  style="height: 35px; width:25px;">&#10095;</button>
+      </div>
+
+    </div>
+
   </div>
-  <footer>
-    <p>&copy; 2024 Arcoiris Logics. All rights reserved.</p>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <ul class="list-footer">
+          <li style="margin-top: 20px; font-size: 20px; font-weight: 520;">Blockchain Development</li>
+          <li style="margin-top: 6px; font-size: 20px; font-weight: 520;">Mobile App Development</li>
+          <li style="margin-top: 6px; font-size: 20px; font-weight: 520;">Smart Contract Development</li>
+          <li style="margin-top: 6px; font-size: 20px; font-weight: 520;">App Development</li>
+          <li style="margin-top: 6px; margin-bottom:10px; font-size: 20px; font-weight: 520;">Consulting Services</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <p class="para-footer" style="margin-top: 20px; font-size: 20px; font-weight: 520;">Email: info@arcoirislogics.com</p>
+        <p class="para-footer" style="margin-top: 8px; font-size: 20px; font-weight: 520;">Phone: +1234567890</p>
+        <p class="para-footer" style="margin-top: 8px; font-size: 20px; font-weight: 520;">Address: 123 Main Street, Delhi, India</p>
+        <p class="para-footer" style="margin-top: 8px; margin-bottom:10px; font-size: 20px; font-weight: 520;">Our technical team will manage all queries</p>
+      </div>
+    </div>
+    <p class="para-footer" style="margin-top: 6px; font-size: 16px; font-weight: 420;">&copy; 2024 Arcoiris Logics. All rights reserved.</p>
   </footer>
   
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
+  <script src="navigation.js" defer></script>     
 </body>
 </html>
